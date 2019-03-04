@@ -17,6 +17,8 @@ namespace Google_Orc
                     return Languages;
                 List<Language> list = new List<Language>()
                 {
+                     new Language() {Name = "Türkçe", Code = "tr"},
+                     new Language() {Name = "English", Code = "en"},
                     new Language() {Name = "Afrikaans", Code = "af"},
                     new Language() {Name = "Albanian", Code = "sq"},
                     new Language() {Name = "Arabic", Code = "ar"},
@@ -36,7 +38,6 @@ namespace Google_Orc
                     new Language() {Name = "Czech", Code = "cs"},
                     new Language() {Name = "Danish", Code = "da"},
                     new Language() {Name = "Dutch", Code = "nl"},
-                    new Language() {Name = "English", Code = "en"},
                     new Language() {Name = "Esperanto", Code = "eo"},
                     new Language() {Name = "Estonian", Code = "et"},
                     new Language() {Name = "Filipino", Code = "tl"},
@@ -99,7 +100,6 @@ namespace Google_Orc
                     new Language() {Name = "Tamil", Code = "ta"},
                     new Language() {Name = "Telugu", Code = "te"},
                     new Language() {Name = "Thai", Code = "th"},
-                    new Language() {Name = "Turkish", Code = "tr"},
                     new Language() {Name = "Ukrainian", Code = "uk"},
                     new Language() {Name = "Urdu", Code = "ur"},
                     new Language() {Name = "Uzbek", Code = "uz"},
